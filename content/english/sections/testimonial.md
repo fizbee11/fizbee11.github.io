@@ -1,29 +1,24 @@
 ---
 enable: true
-title: "What Users Are Saying About Hugoplate"
-description: "Don't just take our word for it - hear from some of our satisfied users!  Check out some of our testimonials below to see what others are saying about Hugoplate."
+title: "Our Projects"
+description: "Check the projects section on top bar for more details."
 
 # Testimonials
 testimonials:
-  - name: "Marvin McKinney"
-    designation: "Web Designer"
+  - name: "Property Management App"
+    designation: 'ERPNext'
     avatar: "/images/avatar-sm.png"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iusto illo molestias, assumenda expedita commodi inventore non itaque molestiae voluptatum dolore, facilis sapiente, repellat veniam."
+    content: "Implemented ERPNext for a real estate company to manage it's operations like renting, maintenance, leasing, contracting."
 
-  - name: "Marvin McKinney"
-    designation: "Web Designer"
+  - name: "Web Portal for 3dscan Firm"
+    designation: "ERPNext"
     avatar: "/images/avatar-sm.png"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iusto illo molestias, assumenda expedita commodi inventore non itaque molestiae voluptatum dolore, facilis sapiente, repellat veniam."
+    content: "Created a custom workflow and webportal to handle orders, queries,  email, scan projects, ToS in ERPNext."
 
-  - name: "Marvin McKinney"
-    designation: "Web Designer"
+  - name: "Opentelemetry"
+    designation: "DevOps SRE"
     avatar: "/images/avatar-sm.png"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iusto illo molestias, assumenda expedita commodi inventore non itaque molestiae voluptatum dolore, facilis sapiente, repellat veniam."
-
-  - name: "Marvin McKinney"
-    designation: "Web Designer"
-    avatar: "/images/avatar-sm.png"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iusto illo molestias, assumenda expedita commodi inventore non itaque molestiae voluptatum dolore, facilis sapiente, repellat veniam."
+    content: "Implemented Otel on complete stack, with ClickhouseDB + Signoz, for monitoring Kubernetes, VMs, Network, & handling upto 1 billion logs ingestion per day."
 
 # don't create a separate page
 build:

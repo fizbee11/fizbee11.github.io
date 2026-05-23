@@ -1,53 +1,69 @@
 ---
 # Banner
 banner:
-  title: "The Ultimate Starter Template You Need To Start Your Hugo Project"
-  content: "Hugoplate is a free starter template built with Hugo and TailwindCSS, providing everything you need to jump-start your Hugo project and save valuable time."
-  image: "/images/banner.png"
+  title: "Focus on your business and let us worry about the IT"
+  content: "At FizBee, we help business adopt latest technologies and make systems reliable."
+  image: "service-list-transparent.png" #"/images/banner.png"
   button:
     enable: true
-    label: "Fork Deploy and Edit Online 🚀"
-    link: "https://app.sitepins.com/new/clone?name=Hugoplate&repository=https://github.com/zeon-studio/hugoplate?aff=hugoplate"
+    label: "Reach Us"
+    link: "/contact_us"
 
 # Features
 features:
-  - title: "What's Included in Hugoplate"
-    image: "/images/service-1.png"
-    content: "Hugoplate is a comprehensive starter template that includes everything you need to get started with your Hugo project. What's Included in Hugoplate"
+  - title: "Enterprise Resource Planning"
+    image: "/erp-transparent.png"
+    content: "Hundreds of businesses worldwide are saving thousands by moving their operations to an ERP Solution."
     bulletpoints:
-      - "10+ Pre-build pages"
-      - "95+ Google Pagespeed Score"
-      - "Build with Hugo and TailwindCSS for easy and customizable styling"
-      - "Fully responsive on all devices"
-      - "SEO-optimized for better search engine rankings"
-      - "**Open-source and free** for personal and commercial use"
+      - "Track your projects in realtime and make timely informed decisions."
+      - "Never miss an order by proper inventory management."
+      - "Let your application handle the taxes and compliance. Auditing your business becomes easier than ever."
+      - "Manage your processes like buying, manufacturing, selling all under the same application."
+      - "Integrate with third party applications and automate external tasks."
     button:
-      enable: false
+      enable: false 
       label: "Get Started Now"
       link: "#"
-
-  - title: "Discover the Key Features Of Hugo"
-    image: "/images/service-2.png"
-    content: "Hugo is an all-in-one web framework for building fast, content-focused websites. It offers a range of exciting features for developers and website creators. Some of the key features are:"
+  - title: "DevOps, Cloud and Self-managed Setups"
+    image: "/devops-transparent.png"
+    content: "SRE, DevOps, Cloud Setups, Self-Managed Servers, we do all:"
     bulletpoints:
-      - "Zero JS, by default: No JavaScript runtime overhead to slow you down."
-      - "Customizable: Tailwind, MDX, and 100+ other integrations to choose from."
-      - "UI-agnostic: Supports React, Preact, Svelte, Vue, Solid, Lit and more."
+      - "Monitor your application with cloud native observability platforms."
+      - "We will setup, migrate or manage your applications."
+      - "Self-managed deployments on cloud or on-premise."
+      - "Cloud platforms like AWS, Azure, GCP."
+      - "On-prem Kubernetes, Proxmox, Ceph, TrueNAS servers."
+    button:
+      enable: true
+      label: "Checkout my Github"
+      link: "https://github.com/fizbee11"
+
+  - title: "Customer Relationship Management"
+    image: "/crm-transparent.png"
+    content: ""
+    bulletpoints:
+      - "Manage your customer relations digitally and grow your business."
+      - "Track effectiveness of your campaigns."
+      - "Manage all your contacts and communications and customer accounts."
+      - "Track sales opportunities across stages."
+      - "Better sales forecasts for business decisions."
+      - "Automate tasks like emails, replies, lead assignments, reminders"
     button:
       enable: true
       label: "Get Started Now"
       link: "https://github.com/zeon-studio/hugoplate"
 
-  - title: "The Top Reasons to Choose Hugo for Your Hugo Project"
-    image: "/images/service-3.png"
-    content: "With Hugo, you can build modern and content-focused websites without sacrificing performance or ease of use."
+  - title: "Helpdesk & Ticketing Solutions"
+    image: "/helpdesk-transparent.png"
+    content: "Centralized ticketing system for emails, portal, forms."
     bulletpoints:
-      - "Instantly load static sites for better user experience and SEO."
-      - "Intuitive syntax and support for popular frameworks make learning and using Hugo a breeze."
-      - "Use any front-end library or framework, or build custom components, for any project size."
-      - "Built on cutting-edge technology to keep your projects up-to-date with the latest web standards."
+      - "Auto convert emails to tickets, set up auto replies."
+      - "Setup a customer portal for direct ticket creations."
+      - "Clear dashboard to see overall status of all tickets."
+      - "SLAs: response and resolution time targets, escalation rules."
     button:
       enable: false
       label: ""
       link: ""
+
 ---

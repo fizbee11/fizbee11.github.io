@@ -6,58 +6,78 @@ name = "Home"
 url = "/"
 weight = 1
 
-[[main]]
-name = "About"
-url = "/about"
-weight = 2
 
 [[main]]
-name = "Elements"
-url = "/elements"
+name = "ERP"
+url = "/erp"
 weight = 3
 
 [[main]]
 weight = 4
-name = "Pages"
+name = "DevOps & SRE"
+
 
 [[main]]
-parent = "Pages"
+name = "Projects"
+weight = 5
+
+[[main]]
 name = "Blog"
 url = "/blog"
+weight = 6
 
 [[main]]
-parent = "Pages"
-name = "Contact"
-url = "/contact"
+name = "Contact Us"
+url = "/contact_us"
+weight = 7
+
+
+# devops & SRE submenu
+[[main]]
+parent = "DevOps & SRE"
+name = "Observability"
+url = "/observability"
 
 [[main]]
-parent = "Pages"
-name = "Authors"
-url = "/authors"
+parent = "DevOps & SRE"
+name = "Cloud"
+url = "/cloud"
 
 [[main]]
-parent = "Pages"
-name = "Categories"
-url = "/categories"
+parent = "DevOps & SRE"
+name = "Self Managed"
+url = "/on-prem"
+
+# projects submenu
+[[main]]
+parent = "Projects"
+name = "Real-estate ERPNext"
+url = "/projects/real-estate-erpnext"
+weight = 1
 
 [[main]]
-parent = "Pages"
-name = "404 Page"
-url = "/404"
+parent = "Projects"
+name = "Web Portal + CRM ERPNext"
+url = "/projects/3dscan-erpnext"
+weight = 2
+
+[[main]]
+parent = "Projects"
+name = "Opentelemetry, Signoz, CHDB"
+url = "/projects/otel-sre"
+weight = 3
+
+
 
 
 # footer menu
 [[footer]]
-name = "About"
-url = "/about"
+name = "Contact Us"
+url = "/contact_us"
 weight = 1
 
 [[footer]]
-name = "Elements"
-url = "/elements"
+name = "Blog"
+url = "/blog"
 weight = 2
 
-[[footer]]
-name = "Privacy Policy"
-url = "/privacy-policy"
-weight = 3
