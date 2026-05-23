@@ -1,12 +1,12 @@
 ######################## default configuration ####################
 # The base URL of your site (required). This will be prepended to all relative URLs.
-baseURL = "/"
+baseURL = "https://fizbee11.github.io"
 # Title of your website (required).
-title = "Hugoplate"
+title = "FizBee"
 # Your theme name
-theme = "hugoplate"
+# theme = "hugoplate"
 # Default time zone for time stamps; use any valid tz database name: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List
-timeZone = "America/New_York"
+timeZone = "Asia/Kolkata"
 # post excerpt
 summaryLength = 10 # see https://gohugo.io/content-management/summaries/#automatic-summary
 # disable language
@@ -75,7 +75,7 @@ resampleFilter = "Lanczos"
 ############################ Caches ##############################
 [caches]
 [caches.images]
-dir = ":resourceDir/_gen"
+dir = ':cacheDir/images'
 maxAge = "720h"
 
 [caches.assets]
@@ -103,9 +103,15 @@ ordered = true
 [mediaTypes."application/manifest+json"]
 suffixes = ["webmanifest"]
 
+# [mediaTypes."text/markdown"]
+# suffixes = ["md"]
 
-########################### Output Format ##########################
 [outputFormats]
+# [outputFormats.md]
+# mediaType = "text/markdown"
+# isPlainText = true
+# baseName = "index"
+########################### Output Format ##########################
 [outputFormats.WebAppManifest]
 mediaType = "application/manifest+json"
 rel = "manifest"
